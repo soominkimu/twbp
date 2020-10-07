@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .sample {
+    @apply text-pink-400;
+    &:hover {
+      @apply text-blue-400;
+    }
+  }
+}
+
